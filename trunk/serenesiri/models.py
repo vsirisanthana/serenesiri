@@ -6,3 +6,6 @@ class BaseModel(models.Model):
 
     class Meta:
         abstract = True
+
+    def __unicode__(self):
+        return 'hello world'
