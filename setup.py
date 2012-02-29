@@ -6,7 +6,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "serene",
+    name = "django-serene",
     version = "0.0.1",
     author = "The Sirisanthana Team",
     author_email = "vsirisanthana@gmail.com",
