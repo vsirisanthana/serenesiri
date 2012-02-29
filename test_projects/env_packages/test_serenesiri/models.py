@@ -1,5 +1,5 @@
 from django.db import models
-from serenesiri.models import BaseModel
+from serene.models import BaseModel
 
 
 class SereneModel(BaseModel):
